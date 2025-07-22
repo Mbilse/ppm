@@ -4,10 +4,11 @@ def main():
     print('''
     Meteor
 
-由星源开发 · Developed by Starry Source
+ By Mbilse BtwoB
 Github starry-source/meteor
+Github Mbilse/ppm
 
-Django 服务器正在启动...''')
+Django WebService is Starting...''')
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'meteors.settings')
     execute_from_command_line(["manage.py", "runserver","--noreload","--skip-checks"])
 if __name__ == '__main__':
