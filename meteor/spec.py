@@ -35,13 +35,13 @@ styleM = {
         },
         'timingFunction': {
             'css':' transition-timing-function: {value};',
-            'name':'动画曲线',
+            'name':'曲线',
             'type':'select',
             'options': [
                 {'name': '线性', 'value': 'linear'},
                 {'name': '缓入', 'value': 'ease-in'},
                 {'name': '缓出', 'value': 'ease-out'},
-                {'name': '缓入缓出', 'value': 'ease-in-out'},
+                {'name': '缓出入', 'value': 'ease-in-out'},
             ],
             'default': 'linear'
         }
@@ -73,9 +73,9 @@ styleM = {
             'name': '对齐方式',
             'type': 'select',
             'options': [
-                {'name': '靠左', 'value': 'left'},
-                {'name': '置中', 'value': 'center'},
-                {'name': '靠右', 'value': 'right'}
+                {'name': '居左', 'value': 'left'},
+                {'name': '居中', 'value': 'center'},
+                {'name': '居右', 'value': 'right'}
             ]
         }
     },
@@ -112,7 +112,7 @@ htmlM={
 props={
     'tag':{
         'name':{
-            'name':'标签名称',
+            'name':'标签名',
             'type':'text',
         }
     },
@@ -121,8 +121,8 @@ props={
             'name': '何时触发',
             'type': 'select',
             'options':[
-                {'name':'单击','value':'click'},
-                # {'name':'上一帧后','value':'follow'},
+                {'name':'单击后','value':'click'},
+                # {'name':'上帧动画后','value':'follow'},
             ],
             'default':'click'
         },
