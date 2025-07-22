@@ -3,7 +3,7 @@
 </p>
 
 <p>
-<h1 align="center" style="line-height:1;">PPM Meteor - fork</h1>
+<h1 align="center" style="line-height:1;">PPM Meteor</h1>
 <p align="center">专业的演示文稿制作器，支持 Html 打包<br>
 由星源开发 (本版为Mbilse改版)</p>
 </p>
