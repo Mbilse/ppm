@@ -206,8 +206,8 @@
             <button><i class="bi bi-arrows-move"></i></button>
             <div class="align-menu">
                 <button onclick="alignElement('center')"><i class="bi bi-stop-btn"></i>居中</button>
-                <button onclick="alignElement('hcenter')"><i class="bi bi-distribute-horizontal"></i>横向居中</button>
-                <button onclick="alignElement('vcenter')"><i class="bi bi-distribute-vertical"></i>纵向居中</button>
+                <button onclick="alignElement('hcenter')"><i class="bi bi-distribute-horizontal"></i>横-居中</button>
+                <button onclick="alignElement('vcenter')"><i class="bi bi-distribute-vertical"></i>竖-居中</button>
             </div>
         </div>
         <button onclick="changeZIndex('top')"><i class="bi bi-chevron-bar-up"></i></button>
@@ -220,12 +220,12 @@
         
     <contextmenu style="display: none;">
         <!-- <p class="text"></p> -->
-        <p onclick="pasteElement()" if="clipboard">粘贴到页面</p>
-        <p onclick="frame.selectAll()">全选</p>
+        <p onclick="pasteElement()" if="clipboard">粘贴到页</p>
+        <p onclick="frame.selectAll()">All</p>
         <hr>
-        <p onclick="copyElement()" if="frame.selectedElements.length">复制元素</p>
-        <p onclick="copyElement();delEle()" if="frame.selectedElements.length">剪切元素</p>
-        <p onclick="delEle()" if="frame.selectedElements.length">删除</p>
+        <p onclick="copyElement()" if="frame.selectedElements.length">Copy</p>
+        <p onclick="copyElement();delEle()" if="frame.selectedElements.length">Cut</p>
+        <p onclick="delEle()" if="frame.selectedElements.length">Delete</p>
     </contextmenu>
     </div>
     <div id="selection-box"></div>
