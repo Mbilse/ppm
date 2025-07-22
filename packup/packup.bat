@@ -1,14 +1,14 @@
 @echo off
-echo 开始打包
-@REM 复制启动代码
+echo Packing...
+@REM 澶嶅埗鍚姩浠ｇ爜
 copy /y .\meteor.spec ..\meteor.spec
 copy /y .\startup.py ..\meteor.py
 cd ..
-@REM 打包
+@REM 鎵撳寘
 pyinstaller meteor.spec --noconfirm
 copy /y .\dist\meteor.exe .\packup\meteor.exe
-echo 打包完成
-@REM 清理临时文件
+echo Packed
+@REM 娓呯悊涓存椂鏂囦欢
 rd /s /q build
 rd /s /q dist
 del meteor.spec
