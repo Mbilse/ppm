@@ -13,7 +13,7 @@ from .spec import *
 
 # 示例文件数据
 f = {
-    "name": "示例",
+    "name": "Test",
     "height": 1080,
     "width": 1920,
     "pages": [
@@ -23,7 +23,7 @@ f = {
                 {
                     "type": "text",
                     "prop": {
-                        "content": "欢迎使用"
+                        "content": "Welcome,User!"
                     },
                     "style": {
                         "text.fontSize": "55",
@@ -74,7 +74,7 @@ f = {
                 {
                     "type": "text",
                     "prop": {
-                        "content": "专业的演示文稿制作器，支持 Html 打包"
+                        "content": "Mbilse PPT Maker，支持 html Pack"
                     },
                     "style": {
                         "text.fontSize": 30,
